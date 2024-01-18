@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sqtest4"
+  description: "Testing template"
+  annotations:
+    github.com/project-slug: efidemos/sqtest4
+    sonarqube.org/project-key: sqtest4
+spec:
+  type: repository
+  lifecycle: experimental
+  owner: "group:default/cncf"
