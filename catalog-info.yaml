@@ -6,6 +6,7 @@ metadata:
   annotations:
     github.com/project-slug: efidemos/sqtest4
     sonarqube.org/project-key: sqtest4
+    jenkins.io/job-full-name: testfolder/
 spec:
   type: repository
   lifecycle: experimental
